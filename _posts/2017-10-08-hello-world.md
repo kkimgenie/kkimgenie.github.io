@@ -4,7 +4,7 @@ title: You're up and running!
 tags:
   - test
   - tags
-visible: 1
+hidden: true
 # published: false
 ---
 
