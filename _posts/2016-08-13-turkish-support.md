@@ -3,7 +3,7 @@ layout: post
 title: "Turkish Character Support"
 tags: []
 comments: true
-hidden: true
+# hidden: true
 ---
 
 This template also supports [Turkish Characters](https://en.wikipedia.org/wiki/Wikipedia:Turkish_characters) as well.

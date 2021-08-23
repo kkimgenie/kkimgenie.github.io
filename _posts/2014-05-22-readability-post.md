@@ -3,7 +3,7 @@ layout: post
 title: "Testing Readability with a Bunch of Text"
 tags: [sample post, readability, test, intro]
 comments: true
-hidden: true
+# hidden: true
 ---
 
 A ton of text to test readability.
