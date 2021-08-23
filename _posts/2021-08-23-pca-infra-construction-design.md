@@ -6,7 +6,9 @@ comments: true
 # hidden: true
 ---
 
-#### 4.1 기반 인프라 구축 설계
+4.1 기반 인프라 구축 설계
+-----
+
 ##### 4.1.1 AWS VPC 설계
 * VPC 구성
 보안 VPC : 인바운드, 아웃바운드 통신에 대한 보안 통제
@@ -22,7 +24,7 @@ COMM : ALB나 Endpoint 등의 자원 할당 (10.10.128.0/24)
 AP : 컨테이너나 Cache, Queue 등 자원할 당 (10.10.129.0/24)
 DB : (10.10.143.24)
 
-* Subnettint : 서브넷을 쪼개는 것
+* Subnetting : 서브넷을 쪼개는 것
   10.0.0.0/26   - A Class
   10.10.0.0/25  - B Class
   10.10.10.0/24 - C Class
@@ -48,7 +50,7 @@ DB : (10.10.143.24)
 | | Private AP | DEVOPS-AP-PRI-A | 10.10.143.128/27 | ap-northeast-2a |
 | | | DEVOPS-AP-PRI-C | 10.10.143.160/27 | ap-northeast-2c |
 
-q/ PRD-VPC에서 Private AP 영역 CIDR만 왜?
+q/ PRD-VPC에서 Private AP 영역 CIDR만 왜?  
 a/ 그냥 다양하게 구성한걸까
 
 ##### 4.1.3 VPC 네트워크 상세 설계
