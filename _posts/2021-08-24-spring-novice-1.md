@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install, 프로젝트 환경설정"
+title: "install, 프로젝트 환경설정, 스프링 웹 개발 기초"
 tags: [spring]
 comments: true
 # hidden: true
