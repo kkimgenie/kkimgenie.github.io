@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "4. 아키텍처 설계"
-tags: [cloud, pca, architecture]
+tags: [cloud, pca]
 comments: true
 # hidden: true
 ---

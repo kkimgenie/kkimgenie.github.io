@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring - Install, 프로젝트 환경설정"
+title: "Install, 프로젝트 환경설정"
 tags: [spring]
 comments: true
 # hidden: true
@@ -22,3 +22,10 @@ Java 플랫폼을 위한 오픈소스 애플리케이션 프레임워크
 * [Java JDK 11 설치](https://www.oracle.com/java/technologies/javase-downloads.html)
 * IDE: [IntelliJ](https://www.jetbrains.com/ko-kr/idea/download/#section=windows) 또는 Eclipse 설치
 
+
+#### 프로젝트 환경설정
+
+* https://start.spring.io
+* maven / gradle : 필요한 라이브러리를 땡겨오고, 빌드 라이프사이클 관리해주는 툴
+* @SpringBootApplication : 톰캣 서버를 내장하고 있어서 스프링부트가 같이 올라옴
+* 
