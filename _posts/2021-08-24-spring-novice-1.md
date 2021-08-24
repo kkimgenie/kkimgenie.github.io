@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring - Install, 프로젝트 환경설정"
-tags: [cloud, pca, architecture]
+tags: [spring]
 comments: true
 # hidden: true
 ---
