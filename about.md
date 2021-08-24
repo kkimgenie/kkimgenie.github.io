@@ -4,11 +4,36 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
+## More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+DevOps Engineer
+
+### Skills
+
+*Software*
+
+- Language : C++, C#, Java, Python
+- AWS
+- IaC : Terraform
+- CI/CD : Jenkins
+- Tensorflow
+- Window Application Programming(MFC, .NET Framework)
+- Database : MS-SQL, Mysql
+- Android Application : Android, Java
+- Data : SQL
+- Image Processing (Open CV)
+
+*Hardware*
+
+- MCU(AVR) Firmware Programming
+- Motor control
+
+*Tool*
+
+- Visual Studio, Eclipse, Android Studio, MATLAB
+- Firmware : AVR Studio
+- Design : SolidWorks
 
 ### Contact me
 
