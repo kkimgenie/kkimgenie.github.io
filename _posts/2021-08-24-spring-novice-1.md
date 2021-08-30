@@ -88,6 +88,7 @@ Welcome Page
 
 *API*
 * @ResponseBody : 응답부에 return 을 직접 넘겨줌. viewResolver 대신에 HttpMessageConverter 동작
+* @RequestParam(value = "name") String name
 * localhost:8080/hello-string?name=wow : wow 문자열 그대로 넘겨줌(html코드가 따로 없음)
 * json : key - value 구조
 * 문자처리는 'StringHttpMessageConverter'
