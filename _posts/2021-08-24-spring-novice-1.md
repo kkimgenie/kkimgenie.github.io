@@ -95,4 +95,4 @@ Welcome Page
 * 기타 처리는 여러'HttpMessgageConverter'가 기본으로 등록돼 있음
 
 
-![20210831_003434](https://user-images.githubusercontent.com/89087636/131365043-af4ca916-ef69-4b79-bdf4-3d2761136aff.png)
+![20210831_003630](https://user-images.githubusercontent.com/89087636/131365304-741a5627-bc20-4368-889b-2b8b40fd846d.png)
