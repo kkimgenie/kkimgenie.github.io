@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "install, 프로젝트 환경설정, 스프링 웹 개발 기초"
+title: "프로젝트 환경설정, 스프링 웹 개발 기초"
 tags: [spring]
 comments: true
 # hidden: true
 ---
 
-##### Spring ?
+## Spring ?
 Java 플랫폼을 위한 오픈소스 애플리케이션 프레임워크   
 동적 웹사이트를 개발하기 위해 여러가지 서비스를 제공
 
-##### Goal
+## Goal
 * 스프링 프로젝트 생성
 * 스프링 부트로 웹 서버 실행
 * 회원 도메인 개발
@@ -18,13 +18,13 @@ Java 플랫폼을 위한 오픈소스 애플리케이션 프레임워크
 * DB연동 - JDBC, JPA, 스프링 데이터 JPA
 * 테스트케이스 작성   
 
-##### 프로젝트 환경설정
+## 프로젝트 환경설정
 
 *사전준비물*
 * [Java JDK 11 설치](https://www.oracle.com/java/technologies/javase-downloads.html)
 * IDE: [IntelliJ](https://www.jetbrains.com/ko-kr/idea/download/#section=windows) 또는 Eclipse 설치   
 
-*환경설정*
+*환경설정*  
 * https://start.spring.io
   *  Project : Gradle
   *  Springboot : 정식버전(영어가 붙어있지 않은 버전이 정식 버전)
@@ -35,13 +35,13 @@ Java 플랫폼을 위한 오픈소스 애플리케이션 프레임워크
 * @SpringBootApplication : 톰캣 서버를 내장하고 있어서 스프링부트가 같이 올라옴
 * 실행속도 높이기 : Preference -> Build -> Build Tools -> Gradle : Build and run (Gradle -> IntelliJ IDEA)
 
-issue/ java: warning: source release 11 requires target release 11   
-sol/ https://hothoony.tistory.com/1105
+**issue/** java: warning: source release 11 requires target release 11   
+**sol/** https://hothoony.tistory.com/1105
 
-q/ jar, war 차이?   
-a/   
+**q/** jar, war 차이?   
+**a/**   
 
-*라이브러리 살펴보기*   
+#### 라이브러리 살펴보기     
 스프링 부트 라이브러리
 * spring-boot-starter-web
   * spring-boot-starter-tomcat: 톰캣 (웹서버)
@@ -78,15 +78,15 @@ Welcome Page
   * gradlew build   
 
 
-##### 스프링 웹 개발 기초
-*정적 컨텐츠*
+## 스프링 웹 개발 기초
+#### 정적 컨텐츠  
 * static/hello-static.html   
 
-*MVC와 템플릿 엔진*
-* thymeleaf 장점 : 절대경로로 서버없이 껍데기 확인가능
+#### MVC와 템플릿 엔진  
+* thymeleaf 장점 : 절대경로로 서버없이 껍데기 확인가능 -> MVC와 템플릿 엔진 강의 5:35 확인가능
 * localhost:8080/hello-mvc?name=spring!!!!!! : controller 중 hello-mvc라는 메소드의 name 인자에 spring!!!!!! 값을 전달(변환)   
 
-*API*
+#### API  
 * @ResponseBody : 응답부에 return 을 직접 넘겨줌. viewResolver 대신에 HttpMessageConverter 동작
 * @RequestParam(value = "name") String name
 * localhost:8080/hello-string?name=wow : wow 문자열 그대로 넘겨줌(html코드가 따로 없음)
