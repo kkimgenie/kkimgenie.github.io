@@ -21,7 +21,7 @@ comments: true
 <br>
 
 #### H2 데이터베이스 설치
-* https://www.h2database.com
+* https://www.h2database.com 
 * 연결 URL
   * 첫 연결은 jdbc:h2:~/test
   * 이후부터는 jdbc:h2:tcp://localhost/~/test
