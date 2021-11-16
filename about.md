@@ -6,15 +6,13 @@ permalink: /about/
 
 
 ## More Information
-
 DevOps Engineer
+<br/>
 
 ### Skills
-
 *Software*
-
 - Language : C++, C#, Java, Python
-- AWS
+- Public Cloud : AWS
 - IaC : Terraform
 - CI/CD : Jenkins
 - Tensorflow
@@ -22,19 +20,17 @@ DevOps Engineer
 - Database : MS-SQL, Mysql
 - Android Application : Android, Java
 - Data : SQL
-- Image Processing (Open CV)
+- Image Processing (Open CV)  
 
 *Hardware*
-
 - MCU(AVR) Firmware Programming
-- Motor control
+- Motor control  
 
 *Tool*
-
 - Visual Studio, Eclipse, Android Studio, MATLAB
 - Firmware : AVR Studio
-- Design : SolidWorks
+- Design : SolidWorks  
+<br/>
 
 ### Contact me
-
 [o_oseung62@naver.com](mailto:email@domain.com)
